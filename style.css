@@ -7,7 +7,7 @@
 
 body {
 	background-color: #fff;
-	color: #000000;
+	color: rgb(0, 0, 0, 0.64);
 }
 
 html {
@@ -17,13 +17,13 @@ html {
 /* HEADER*/
 
 .title {
-	font-size: 5rem;
+	font-size: 2.5rem;
 	font-weight: 600;
 	font-family: 'lora', sans-serif;
-	margin-bottom: 100px;
+	margin-bottom: 4rem;
 	background-color: #ccdbdc;
-	padding-top: 10rem;
-	padding-bottom: 5rem;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
 	color: #003249;
 
 	display: flex;
@@ -32,7 +32,7 @@ html {
 
 /* INTRO SECTION */
 #intro {
-	margin-bottom: 10rem;
+	margin-bottom: 3rem;
 }
 
 .intro-info,
@@ -41,68 +41,73 @@ html {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	width: 45%;
+	width: 50%;
 	margin: 0 auto;
 }
 
 .intro-image {
-	width: 1300px;
-	height: 700px;
+	width: 700px;
+	height: 380px;
 	border-radius: 12px;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	filter: brightness(85%);
 }
 
 .intro-info p,
-.bio p {
-	font-size: 2.2rem;
-	padding-left: 5rem;
-	padding-right: 5rem;
-	line-height: 3.2rem;
-	/* text-align: center; */
+.bio p,
+.about-p1,
+.about-p2 {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-align: center;
 	text-align-last: center;
 }
 
 .intro-p2 {
 	margin-top: 0;
-	margin-bottom: 5rem;
+	margin-bottom: 1.4rem;
 }
 
 .bio {
-	padding-top: 6rem;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	width: 52%;
+	margin: 0 auto;
 
 	/* Shadows on left and right */
 
-	border: 0 solid #000;
-	box-shadow: -5px 0 5px rgba(0, 0, 0, 0.3), 5px 0 5px rgba(0, 0, 0, 0.3);
+	/* border: 0 solid #000;
+	box-shadow: -5px 0 5px rgba(0, 0, 0, 0.3), 5px 0 5px rgba(0, 0, 0, 0.3); */
 }
 
 .about {
 	background-color: rgb(204, 219, 220);
-	margin-top: 6rem;
+	margin-top: 2rem;
 }
 
 .bio img {
 	border-radius: 50%;
-	height: 650px;
-	width: 630px;
+	height: 300px;
+	width: 300px;
 	filter: brightness(92%);
 }
 
 .about-p1 {
-	margin-top: 4rem;
+	margin-top: 2rem;
+	padding: 0 2rem;
 }
 
 .about-p2 {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0 2rem;
 }
 
 .about-video {
 	margin-top: 4rem;
 	margin-bottom: 5rem;
 	aspect-ratio: 16/9;
-	width: 1200px;
+	width: 600px;
 
 	position: relative;
 	left: 50%;
@@ -111,7 +116,7 @@ html {
 
 /* RESEARCH SECTION */
 #research {
-	width: 45%;
+	width: 52%;
 	margin: 0 auto;
 }
 
@@ -123,14 +128,14 @@ html {
 
 #research h2 {
 	margin-bottom: 3rem;
-	font-size: 2.5rem;
+	font-size: 1.6rem;
 	font-weight: 800;
 	text-align: center;
 }
 
 .r-button {
-	font-size: 2rem;
-	padding: 40px 30px;
+	font-size: 1.1rem;
+	padding: 20px 10px;
 	font-weight: 700;
 	border: 0.1 solid #757575;
 	cursor: pointer;
@@ -147,9 +152,9 @@ html {
 }
 
 .content-container {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
-	margin-bottom: 7rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
 	box-shadow: -5px 0 5px rgba(117, 117, 117, 0.3),
 		5px 0 5px rgba(117, 117, 117, 0.3);
 
@@ -169,42 +174,44 @@ html {
 
 .content-container ul li,
 .important-research-info ul li {
-	font-size: 2.3rem;
-	margin-bottom: 2.2rem;
-	margin-left: 10rem;
-	margin-right: 7rem;
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .content-container ul li span,
 .important-research-info ul li span {
 	color: rgb(192, 3, 3);
-	font-size: 2rem;
+	font-size: 1.4rem;
 	font-weight: 700;
 }
 
 .content-container .content3-l3 {
 	color: #000;
 	font-weight: bold;
-	font-size: 2.4rem;
+	font-size: 1.7rem;
 }
 
 .important-research-info {
 	border-top: 1px solid #000;
-	margin-top: 9rem;
 }
 
 .important-research-info h2 {
-	margin-top: 4rem;
+	margin-top: 3rem;
 }
 
 .research-video-resoures {
-	line-height: 3rem;
-	padding: 30px 40px;
+	line-height: 1.8rem;
+	padding: 15px 20px;
 
 	font-size: 3rem;
 	background-color: #ccdbdc;
 	font-family: 'lora', sans-serif;
 	color: #003249;
 	width: 100%;
-	margin-top: 10rem;
+}
+
+.about-video {
+	margin-top: 0;
 }
