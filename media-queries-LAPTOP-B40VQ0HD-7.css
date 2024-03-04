@@ -2,17 +2,7 @@
 
 @media (min-width: 800px) and (max-width: 1260px) {
 	.intro-image {
-		width: 550px;
+		width: 600px;
 		height: 360px;
-	}
-
-	.intro-info,
-	.bio {
-		width: 70%;
-		margin: 0 auto;
-	}
-
-	.about-video {
-		width: 500px;
 	}
 }

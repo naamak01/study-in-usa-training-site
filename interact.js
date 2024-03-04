@@ -1,5 +1,5 @@
-/*When a button is clicked, the corresponding paragraph will be displayed, and all others will be hidden. 
-
+/*
+-When a button is clicked, the corresponding paragraph will be displayed, and all others will be hidden. 
 - Targeting buttons in the research questions part
 */
 
@@ -31,3 +31,8 @@ buttons.forEach((button) => {
 		});
 	});
 });
+
+// Ensure the first button is selected by default
+if (buttons.length > 0) {
+	buttons[0].style.backgroundColor = '#b0c4b1'; // Set the first button's background color to indicate it's active
+}
