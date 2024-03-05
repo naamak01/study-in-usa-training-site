@@ -1,18 +1,87 @@
 /* TARGETING RANGE BETWEEN 900PX AND 1260PX */
 
 @media (min-width: 800px) and (max-width: 1260px) {
+	.title {
+		font-size: 2.3rem;
+	}
+
 	.intro-image {
 		width: 550px;
 		height: 360px;
 	}
 
 	.intro-info,
-	.bio {
+	.bio,
+	#research {
 		width: 70%;
 		margin: 0 auto;
 	}
 
 	.about-video {
 		width: 500px;
+	}
+}
+
+@media (max-width: 660px) {
+	.title {
+		font-size: 1.9rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.intro-image {
+		width: 370px;
+		height: 200px;
+	}
+
+	.bio img {
+		height: 230px;
+		width: 230px;
+	}
+
+	.intro-info,
+	.bio,
+	#research {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 1rem;
+	}
+
+	.about-video {
+		width: 350px;
+	}
+
+	.intro-info p,
+	.bio p,
+	.about-p1,
+	.about-p2 {
+		font-size: 1rem;
+		line-height: 1.2rem;
+	}
+
+	#research h2 {
+		margin-bottom: 1rem;
+		font-size: 1.2rem;
+		font-weight: 800;
+	}
+
+	.r-button {
+		font-size: 0.8rem;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.content-container ul li,
+	.important-research-info ul li {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 3rem;
+		margin-right: 2rem;
+	}
+	.content-container ul li span,
+	.important-research-info ul li span {
+		font-size: 0.9rem;
+		font-weight: 700;
 	}
 }
