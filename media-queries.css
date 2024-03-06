@@ -24,14 +24,14 @@
 
 @media (max-width: 660px) {
 	.title {
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		margin-bottom: 2rem;
 	}
 
 	.intro-image {
-		width: 370px;
+		width: 320px;
 		height: 200px;
 	}
 
@@ -43,7 +43,7 @@
 	.intro-info,
 	.bio,
 	#research {
-		width: 70%;
+		width: 80%;
 		margin: 0 auto;
 		margin-top: 1rem;
 	}
@@ -83,5 +83,14 @@
 	.important-research-info ul li span {
 		font-size: 0.9rem;
 		font-weight: 700;
+	}
+
+	.content-container .content3-l3 {
+		font-size: 1.2rem;
+	}
+
+	.important-research-info ul li {
+		width: 95%;
+		margin-left: 1.5rem;
 	}
 }
