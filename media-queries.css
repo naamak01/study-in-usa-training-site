@@ -94,3 +94,10 @@
 		margin-left: 1.5rem;
 	}
 }
+
+@media (max-width: 450px) {
+	.intro-image {
+		width: 320px;
+		height: 180px;
+	}
+}
