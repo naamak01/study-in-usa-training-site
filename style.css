@@ -1,3 +1,5 @@
+/* targeting everything on the web page with these css styles  */
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -74,10 +76,6 @@ html {
 	width: 52%;
 	margin: 0 auto;
 
-	/* Shadows on left and right */
-
-	/* border: 0 solid #000;
-	box-shadow: -5px 0 5px rgba(0, 0, 0, 0.3), 5px 0 5px rgba(0, 0, 0, 0.3); */
 }
 
 .about {
