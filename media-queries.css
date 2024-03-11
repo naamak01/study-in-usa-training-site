@@ -27,7 +27,7 @@
 		font-size: 1.5rem;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
-		margin-bottom: 2rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.intro-image {
@@ -97,7 +97,19 @@
 
 @media (max-width: 450px) {
 	.intro-image {
-		width: 320px;
-		height: 180px;
+		width: 300px;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.intro-info,
+	.bio {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.about-video {
+		aspect-ratio: 16/9;
+		width: 280px;
 	}
 }
