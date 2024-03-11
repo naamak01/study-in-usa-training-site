@@ -21,12 +21,14 @@ buttons.forEach((button) => {
 		document.getElementById(ulId).style.display = 'block';
 
 		// Change the button's background color to indicate it's active
-		this.style.backgroundColor = '#b0c4b1';
+		this.style.backgroundColor = '#0c0c0c';
+		this.style.color = '#fbfbfc';
 
 		// Reset the background color of all buttons to default
 		buttons.forEach((btn) => {
 			if (btn !== this) {
 				btn.style.backgroundColor = '';
+				btn.style.color = '#023047';
 			}
 		});
 	});
@@ -34,5 +36,6 @@ buttons.forEach((button) => {
 
 // Ensure the first button is selected by default
 if (buttons.length > 0) {
-	buttons[0].style.backgroundColor = '#b0c4b1'; // Set the first button's background color to indicate it's active
+	buttons[0].style.backgroundColor = '#0c0c0c'; // Set the first button's background color to indicate it's active
+	buttons[0].style.color = '#fbfbfc'; // Changes font color to white
 }
