@@ -238,8 +238,8 @@ img.intro-image {
 }
 
 .important-research-info {
-	border-top: 1px solid #999;
-	height: 50vh;
+	border-top: 1px solid #ffffff;
+	height: 35vh;
 	background-color: #ffffff;
 }
 
@@ -248,7 +248,8 @@ img.intro-image {
 }
 
 .important-research-info .research-video-resoures {
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
+	margin-top: 5rem;
 	font-size: 1.6rem;
 	font-weight: 400;
 	text-align: center;
