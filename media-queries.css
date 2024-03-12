@@ -5,9 +5,14 @@
 		font-size: 2.3rem;
 	}
 
-	.intro-image {
-		width: 550px;
-		height: 360px;
+	.sub-intro-info {
+		height: 65vh;
+		width: 63%;
+	}
+
+	img.intro-image {
+		height: 400px;
+		width: 700px;
 	}
 
 	.intro-info,
@@ -26,13 +31,20 @@
 	.title {
 		font-size: 1.5rem;
 		padding-top: 2rem;
-		padding-bottom: 2rem;
-		margin-bottom: 0.5rem;
+		padding-bottom: 0.5rem;
+		margin-bottom: 2rem;
+		width: 75%;
 	}
 
-	.intro-image {
+	.sub-intro-info {
+		height: 45vh;
+		width: 73%;
+	}
+
+	img.intro-image {
 		width: 420px;
 		height: 230px;
+		margin-bottom: 0;
 	}
 
 	.bio img {
@@ -60,7 +72,16 @@
 		line-height: 1.2rem;
 	}
 
-	#research h2 {
+	.intro-p2 {
+		line-height: 1.5rem;
+		font-size: 1rem;
+		margin-left: 0;
+
+		position: absolute;
+		top: -180px;
+	}
+
+	#research .research-h1 {
 		margin-bottom: 1rem;
 		font-size: 1.2rem;
 		font-weight: 800;
@@ -72,34 +93,68 @@
 		padding-right: 5px;
 	}
 
-	.content-container ul li,
-	.important-research-info ul li {
-		font-size: 1rem;
-		margin-bottom: 1rem;
-		margin-left: 3rem;
-		margin-right: 2rem;
-	}
-	.content-container ul li span,
-	.important-research-info ul li span {
-		font-size: 0.9rem;
-		font-weight: 700;
-	}
-
-	.content-container .content3-l3 {
-		font-size: 1.2rem;
-	}
-
-	.important-research-info ul li {
-		width: 95%;
-		margin-left: 1.5rem;
+	.important-research-info {
+		height: 65vh;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
 
+.content-container ul li,
+.important-research-info ul li {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 3rem;
+	margin-right: 2rem;
+}
+.content-container ul li span,
+.important-research-info ul li span {
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+
+.content-container .content3-l3 {
+	font-size: 1.2rem;
+}
+
+.important-research-info ul li {
+	width: 95%;
+	margin-left: 1.5rem;
+}
+
+.important-research-info .research-video-resoures {
+	margin-top: 4rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
 @media (max-width: 450px) {
-	.intro-image {
-		width: 300px;
+	.title {
+		width: 80%;
+		margin: 0 auto;
+		text-align: start;
+		font-size: 1.8rem;
+
+		padding-bottom: 0;
+		margin-bottom: 2.3rem;
+	}
+
+	.sub-intro-info {
+		background-color: #ffffff;
+		width: 100%;
+	}
+
+	img.intro-image {
+		width: 380px;
 		height: 200px;
 		object-fit: cover;
+		margin-left: 1.7rem;
+	}
+
+	.bio img {
+		border-radius: 50%;
+		height: 250px;
+		width: 250px;
 	}
 
 	.intro-info,
@@ -108,8 +163,43 @@
 		margin: 0 auto;
 	}
 
+	.intro-p2 {
+		line-height: 1.3rem;
+		font-size: 1rem;
+		margin-left: 0;
+
+		position: absolute;
+		top: -200px;
+	}
+
+	#research .research-h1 {
+		margin-bottom: 0.8rem;
+		font-size: 1.2rem;
+		font-weight: 800;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.about {
+		margin-top: 0;
+	}
+
 	.about-video {
 		aspect-ratio: 16/9;
 		width: 280px;
+	}
+
+	.important-research-info {
+		border-top: 1px solid #999;
+		height: 90vh;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-top: 0;
+	}
+
+	.important-research-info .research-video-resoures {
+		margin-top: 4rem;
+		font-size: 1rem;
+		font-weight: 400;
 	}
 }

@@ -22,13 +22,16 @@ html {
 	font-size: 3rem;
 	font-weight: 500;
 	font-family: 'Poppins', sans-serif;
-	margin-bottom: 1rem;
 	padding-top: 3.5rem;
-	padding-bottom: 2.5rem;
+	padding-bottom: 1rem;
 	color: #fbfbfc;
 
-	display: flex;
-	justify-content: center;
+	text-align: start;
+	width: 43%;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+
+	border-bottom: 0.6rem solid #ffb703;
 }
 
 /* INTRO SECTION */
@@ -47,13 +50,31 @@ html {
 	margin: 0 auto;
 }
 
-.intro-image {
-	aspect-ratio: 16/9;
-	width: 780px;
-	border-radius: 12px;
+.sub-intro-info {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 42%;
+	margin: 0 auto;
+
+	margin-top: 15rem;
+	position: relative;
+
+	height: 60vh;
+}
+
+img.intro-image {
+	width: 750px;
+	height: 450px;
 	margin-bottom: 1rem;
 	margin-top: 2rem;
 	filter: brightness(90%);
+
+	position: absolute;
+	top: -220px;
+	right: 0px;
 }
 
 .intro-info p,
@@ -71,12 +92,20 @@ html {
 .intro-p2 {
 	margin-top: 0;
 	margin-bottom: 1.4rem;
+
+	color: black;
+	text-align: start;
+	width: 90%;
+	margin-left: 1.5rem;
+	line-height: 1.5rem;
+
+	padding-top: 15rem;
+	font-size: 1.2rem;
 }
 
 .bio {
 	padding-top: 2.5rem;
 	padding-bottom: 2rem;
-
 }
 
 .about {
@@ -133,9 +162,9 @@ html {
 	width: 100%;
 }
 
-#research h2 {
+#research .research-h1 {
 	font-family: 'Poppins', sans-serif;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	font-size: 1.8rem;
 	font-weight: 400;
 	text-align: center;
@@ -193,7 +222,7 @@ html {
 	font-family: 'Poppins', sans-serif;
 	color: rgb(192, 3, 3);
 	font-size: 1.4rem;
-	font-weight: 500;
+	font-weight: 200;
 }
 
 .content-container .content3-l3 {
@@ -204,27 +233,40 @@ html {
 	color: #fbfbfc;
 }
 
+.note-h2 {
+	color: black;
+}
+
 .important-research-info {
 	border-top: 1px solid #999;
+	height: 50vh;
+	background-color: #ffffff;
 }
 
 .important-research-info h2 {
-	margin-top: 1.6rem;
+	margin-top: 1rem;
 }
 
 .important-research-info .research-video-resoures {
-	line-height: 1.8rem;
-	padding: 15px 20px;
+	margin-bottom: 3rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: center;
+	padding: 1rem 2rem;
 
-	font-size: 16px;
 	background-color: #ffb703;
 	font-family: 'Poppins', sans-serif;
 	color: #023047;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+	margin-top: 6rem;
+}
+
+.important-research-info ul li {
+	color: black;
 }
 
 .about-video {
-	margin-top: 0;
+	margin-top: 2rem;
 	margin-bottom: 1rem;
 }
