@@ -81,6 +81,12 @@
 		top: -180px;
 	}
 
+	p.about-p1,
+	p.about-p2 {
+		padding: 0 1rem;
+		text-align: start;
+	}
+
 	#research .research-h1 {
 		margin-bottom: 1rem;
 		font-size: 1.2rem;
@@ -184,6 +190,12 @@
 		margin-top: 0;
 	}
 
+	p.about-p1,
+	p.about-p2 {
+		padding: 0 1rem;
+		text-align: start;
+	}
+
 	.about-video {
 		aspect-ratio: 16/9;
 		width: 280px;
@@ -191,7 +203,7 @@
 
 	.important-research-info {
 		border-top: 1px solid #999;
-		height: 90vh;
+		height: 80vh;
 		padding-left: 1rem;
 		padding-right: 1rem;
 		margin-top: 0;
