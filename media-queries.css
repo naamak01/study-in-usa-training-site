@@ -178,12 +178,25 @@
 		top: -200px;
 	}
 
+	#research {
+		width: 100%;
+	}
+
+	#research .research-video-resoures,
+	#research .research-buttons,
+	#research .content-container {
+		width: 85%;
+		margin: auto 0;
+		margin-left: 2rem;
+	}
+
 	#research .research-h1 {
 		margin-bottom: 0.8rem;
 		font-size: 1.2rem;
 		font-weight: 800;
 		padding-left: 0;
 		padding-right: 0;
+		width: 93%;
 	}
 
 	.about {
@@ -203,11 +216,19 @@
 
 	.important-research-info {
 		border-top: 1px solid #999;
-		height: 80vh;
+		height: 90vh;
 		padding-left: 1rem;
 		padding-right: 1rem;
 		margin-top: 0;
-		width: 100%;
+	}
+
+	.important-research-info ul {
+		width: 90%;
+		margin-left: 1rem;
+	}
+
+	.important-research-info ul li {
+		margin-right: 0;
 	}
 
 	.important-research-info .research-video-resoures {
@@ -215,4 +236,9 @@
 		font-size: 1rem;
 		font-weight: 400;
 	}
+
+	/* #research .important-research-info {
+		width: 95%;
+		margin: 0 auto;
+	} */
 }
