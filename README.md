@@ -5,5 +5,7 @@
 
  ## Sample image for the project: It is a work in progress
 
-![international](https://github.com/naamak01/study-in-usa-training-site/assets/98446143/b58d4fe9-8ec0-46c0-b83d-ba4e2f4b71ec)
-![train](https://github.com/naamak01/study-in-usa-training-site/assets/98446143/78a366b6-92dd-41d3-adea-4fc55b973c1e)
+
+![Screenshot (18)](https://github.com/naamak01/study-in-usa-training-site/assets/98446143/d527825c-cb1b-4137-b1c6-5a1f29db308c)
+
+![Screenshot (30)](https://github.com/naamak01/study-in-usa-training-site/assets/98446143/8315843d-7b7b-487b-93a6-6549dfaedbe6)
